@@ -1,4 +1,4 @@
-type userType={name:string,age:number,subjects:string[]}
+{type userType={name:string,age:number,subjects:string[]}
 interface userInterface {
     name:string,
     age:number,
@@ -25,3 +25,4 @@ function printPerson(user:userType){
 }
 printPerson(person2);
 printPerson(person1);
+}
